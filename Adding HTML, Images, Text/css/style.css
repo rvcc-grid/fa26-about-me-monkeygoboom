@@ -1,0 +1,43 @@
+body {
+    font-family:Bodoni Moda ;
+    background-color:#B34D00;
+    color: #1F00B3
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Cinzel;
+    font-size: 60pt;
+}
+
+header{
+    text-align: center;
+}
+
+#Hero {
+    text-align: Center;
+    font-size: 25pt;
+    background-color: #5E3A1F;
+    color: #02B300;
+    padding: 10px;
+    border: 3px solid #02B300;
+}
+
+#Hero img {
+    width: 400px;
+}
+
+#Bio {
+    font-size: 15pt;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+
+    text-align: left;
+    font-size: 10pt;
+    color: #02B300;
+    background-color: #5E3A1F;
+    border: 3px solid #02B300;
+    padding: 10px;
+}
