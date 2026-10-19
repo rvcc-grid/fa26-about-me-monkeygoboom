@@ -27,9 +27,28 @@ header{
 }
 
 #Bio {
-    font-size: 15pt;
+    font-size: 18pt;
     padding: 20px;
     text-align: center;
+}
+
+#Hobbies {
+    text-align: Center;
+    font-size: 25pt;
+    border: 5px solid #02B300;
+    background-color: #5E3A1F;
+    color: #02B300;
+  
+}
+#Hobbies li {
+    text-align: Center;
+    font-size: 25pt;
+    background-color: #B34D00;
+    border: 3px solid #02B300;
+    color: #1F00B3;
+    margin: 10pt;
+    list-style: none;
+    padding: 10pt;
 }
 
 footer {
@@ -40,4 +59,5 @@ footer {
     background-color: #5E3A1F;
     border: 3px solid #02B300;
     padding: 10px;
+    margin-top: 10pt;
 }
