@@ -35,20 +35,31 @@ header{
 #Hobbies {
     text-align: Center;
     font-size: 25pt;
-    border: 5px solid #02B300;
-    background-color: #5E3A1F;
-    color: #02B300;
+    
+    
+    
   
 }
 #Hobbies li {
     text-align: Center;
     font-size: 25pt;
-    background-color: #B34D00;
+    background-color: #5E3A1F;
     border: 3px solid #02B300;
-    color: #1F00B3;
+    color: #02B300;
     margin: 10pt;
+    margin-right: 300pt;
+    margin-left: 300pt;
     list-style: none;
     padding: 10pt;
+}
+
+#Boardgame_images{
+    text-align: center;
+}
+#Boardgame_images img {
+    text-align: center;
+    border: 3px solid #02B300;
+    padding: 4pt;
 }
 
 footer {
