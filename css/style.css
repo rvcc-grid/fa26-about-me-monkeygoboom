@@ -61,6 +61,10 @@ header{
     border: 3px solid #02B300;
     padding: 4pt;
 }
+#article {
+    text-align: center;
+}
+
 
 footer {
 
