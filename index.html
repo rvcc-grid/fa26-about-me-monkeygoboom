@@ -97,8 +97,47 @@
             <figcaption> Vdieo of Midterm project</figcaption>
 
          </section>
-        
 
+         <section id="contact">
+            <h2>Forms</h2>
+            <form action="https://api.web3forms.com/submit" method="post">
+                <fieldset>
+                    <legend> Contact Form</legend>
+                    <input type="text" name="Name" placeholder="Write your First and Last name" required>
+                    <input type="email" name="Email" placeholder="Write your email address here" required>
+                    <div class="form-phone">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+                        <select name="Phone type">
+                            <option Value="phone">Home</option>
+                            <option Value="phone">Work</option>
+                            <option Value="phone">Cell</option>
+                            <option Value="phone">None</option>
+                        </select>
+                    </div>
+                   
+                    <textarea name="message" placeholder="Write a message!"></textarea>
+                     
+                     <div class ="form-Follow-up">
+                        <label for=""follow>Follow Up?</label>
+                        Yes: <input type="radio" name="Follow up" value="Yes">
+                        No: <input type="radio" name="Follow up" value="No">
+                    </div>
+                    <div data-class="h-captcha" data-captcha="true">
+                        <button type="submit" name="Submit" >Submit</button>
+                    </div>
+
+                </fieldset>
+                <input type="hidden" name="access_key" value="1b032f0c-de83-4e87-b6b2-ca21652ec043">
+                <input type="hidden" name="subject" value="New message from my About Me page">
+                <input type="hidden" name="redirect" value="https://rvcc-grid.github.io/fa26-about-me-monkeygoboom/thanks.html">
+                
+            </form>
+
+
+         </section>
+        
+c
     </main>
 
     <footer>
@@ -106,5 +145,6 @@
         © 2026 - Jerrin Sunny
 
     </footer>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>
