@@ -99,6 +99,63 @@ header{
 }
 
 
+/* Contact Form Styling */
+
+#contact form {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact fieldset {
+    background-color: #5E3A1F;
+    border: 3px solid #02B300;
+    padding: 15px;
+    color: #02B300;
+}
+
+#contact input:not([type="radio"]),
+#contact select,
+#contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #02B300;
+}
+
+#contact input[type="radio"] {
+    width: auto;
+}
+
+.phone-class {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact textarea {
+    resize: vertical;
+    max-height: 100px;
+}
+
+#contact button {
+    background-color: #02B300;
+    color: #5E3A1F;
+    padding: 10px 20px;
+    border: 2px solid #02B300;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #5E3A1F;
+    color: #02B300;
+}
+
+
+
+
+
 
 footer {
 
